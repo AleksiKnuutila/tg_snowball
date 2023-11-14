@@ -11,5 +11,5 @@ A directory of public Telegram groups and channels, by scholars for scholars. We
 
 # Update 14.11. 2023
 
-Test release of Finnish Telegram channels. [View using Datasette](https://lite.datasette.io/?install=datasette-json-html&csv=https://raw.githubusercontent.com/AleksiKnuutila/tg_snowball/main/finnish_channels_and_groups.csv#/data/finnish_channels_and_groups?_sort_desc=Subscriber+Count)
+Test release of Finnish Telegram channels. [View using Datasette](https://lite.datasette.io/?install=datasette-json-html&csv=https%3A%2F%2Fraw.githubusercontent.com%2FAleksiKnuutila%2Ftg_snowball%2Fmain%2Ffinnish_channels_and_groups.csv#/data/finnish_channels_and_groups?_sort_desc=Subscriber+Count)
 
