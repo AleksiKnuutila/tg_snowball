@@ -7,7 +7,7 @@ A directory of public Telegram groups and channels, by scholars for scholars. We
 
 - Metadata about public groups and channels on Telegram and sampling process
 - A graph of connections between channels
-- Tools for testing whether sample reflects Telegram communities of interest to you
+- Tools for helping you select sample of channels and assess sampling results
 
 # Update 14.11. 2023
 
