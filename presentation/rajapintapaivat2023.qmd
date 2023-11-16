@@ -1,0 +1,68 @@
+---
+title: "tg_snowball"
+subtitle: A directory of public Telegram groups and channels, with systematic sampling
+format:
+  clean-revealjs:
+    self-contained: true
+    template-partials:
+      - title-slide.html
+author:
+  - name: Aleksi Knuutila
+    orcid: 0000-0002-9874-0079
+    email: aleksi.knuutila@helsinki.fi
+    affiliations: HY
+date: 2023-11-17
+slide_link:
+---
+## Data collection from Telegram
+
+- Nice API!
+- But no global search :(
+
+# Existing tools
+
+Many libraries/apps bundle these together:
+
+- Data collection: Exporting messages and media from list of channels
+- Visualisation / analysis
+
+But scholars still need to DIY:
+
+- Discovery - finding most important sources
+- Sampling - systematically selecting channels for a dataset
+
+# Existing directories of Telegram
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Problems:
+
+- Few channels from Europe
+- Opaque about methodology
+
+:::
+
+::: {.column width="50%"}
+
+![Screenshot from tgstat.ru](tgstat.png)
+
+:::
+
+:::: 
+
+# Snowball sampling
+
+- Sampling typically happens by following citations between samples
+- Parameters: Seedlist of channels, how far to go in history, prioritising channels for next step...
+- Researchers have to learn how to work the API anyway!
+
+# tg_snowball aims
+
+- Publishing channel metadata and citations graphs
+- Making it transparent and replicable enough to allow scholarly use
+- Providing tools selecting a sample of channels and assess sampling results
+  - After getting list of channels, you can use other tools to export data
+
+- So far vapourware! But prototype [here](https://github.com/AleksiKnuutila/tg_snowball/tree/main)
